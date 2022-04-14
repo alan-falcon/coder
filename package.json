@@ -1,0 +1,19 @@
+{
+  "name": "alan-falcon-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass main.scss css/style.min.css -w -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan-falcon/coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alan-falcon/coder/issues"
+  },
+  "homepage": "https://github.com/alan-falcon/coder#readme"
+}

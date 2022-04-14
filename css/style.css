@@ -131,7 +131,7 @@ footer p {
   color: grey;
 }
  
-/* yo te puse las media query aca pero van al final de todo, las puse aca xq corresponden al index solo a modo de ejemplo */
+
 @media (max-width: 790px) {
   header {
     display: flex;
@@ -348,4 +348,4 @@ footer p {
   footer p {
     margin-bottom: 15px;
   } 
-   /* asd } */   }
+   } 
