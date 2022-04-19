@@ -1,0 +1,12 @@
+$colorPrimary: #0b151d;
+$fontPrimary: "Roboto", sans-serif;
+$font-sPrimary: 20px;
+
+body {
+  font-family: $fontPrimary;
+  font-size: $font-sPrimary;
+  background-color: $colorPrimary;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}

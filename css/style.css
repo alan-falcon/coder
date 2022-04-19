@@ -8,7 +8,7 @@
 }
  
 
-#body-index {
+body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   background-color: #042642;
@@ -27,11 +27,13 @@ header {
 }
 
 .header_logo {
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .logo_tama {
   width: 75px;
   height: 75px;
@@ -71,39 +73,7 @@ li a:hover {
 }
 
 /*---------------------main-------------------------- */
-#main-index {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 15px;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.247);
-}
-.hero-img {
-  width: 50%;
-}
-.hero-img img {
-  width: 100%;
-  border-radius: 10px;
-}
-.hero {
-  width: 50%;
-  padding: 35px;
-}
-.hero strong {
-  display: block;
-  color: white;
-  padding: 10px 0;
-  font-size: 25px;
-}
-.hero_texto {
-  display: inline;
-  background-color: rgba(0, 0, 0, 0.048);
-  color: white;
-  border-radius: 30px;
-}
+
 /*-----------------------------------------footer*/
 footer {
   display: flex;
@@ -174,14 +144,14 @@ footer p {
 }
 
 /* ============================================================== */
-#body-nosotros {
+/* #body-nosotros {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   background-color: #042642;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-}
+} */
 .nosotros {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -298,11 +268,11 @@ footer p {
   background-size: cover;
   background-position: center;
 }
-#body-servicio {
+/* #body-servicio {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
  }
-
+ */
 /*-----------------cursos----------*/
 .main-cursos {
   display: flex;
@@ -322,10 +292,10 @@ footer p {
   height: 150px;
   
 }
-#body-cursos {
+/* #body-cursos {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
- }
+ } */
  @media (max-width: 790px) {
    .main-cursos{
      flex-wrap: wrap;

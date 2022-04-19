@@ -1,0 +1,25 @@
+footer {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 10px 10px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.452);
+  .texto_footer {
+    margin: auto 0;
+    padding: 0 10px;
+    p {
+      color: whitesmoke;
+      font-size: 16px;
+    }
+  }
+  .redsocial {
+    font-size: 25px;
+    transition: all 0.3s;
+    .redsocial:hover {
+      color: grey;
+    }
+  }
+}
