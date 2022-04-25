@@ -1,50 +1,32 @@
 .nosotros {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 100vh;
-  grid-template-areas: "titulo texto";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+  padding-top: 20px;
   height: 500px;
   width: 100%;
   background-image: url(../asset/images/guardaespalda3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: end;
-  border-radius: 10px 10px 0 0;
+  background-color: rgba(255, 255, 255, 0.151);
 
   .nosotros_titulo {
-    grid-area: titulo;
-    justify-content: center;
-    align-items: flex-start;
-
     color: black;
-    margin: 0;
-
-    padding-left: 20px;
-    padding-top: 20px;
     letter-spacing: 1px;
     width: 100%;
-
-    h1 {
-      width: 100%;
-    }
+    padding: 20px;
+    width: 60%;
   }
-}
-
-.nosotros_texto {
-  grid-area: texto;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex-direction: row;
-  padding: 60px;
-  padding-left: 180px;
-  width: 100%;
-  overflow: hidden;
-
-  p {
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
+  .nosotros_texto {
     width: 100%;
+    p {
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 20px 30px;
+      margin: 0;
+    }
   }
 }

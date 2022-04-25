@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital@1 & display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #0b151d;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 0 10px 0 white;
+  background-color: #0b151d;
+  height: 120px;
+}
+
+header .header_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .header_logo .logo_tama {
+  height: 75px !important;
+  justify-content: center;
+  margin: 10px;
+}
+
+header .header_logo .lion {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+header #barra {
+  stroke: white;
+  display: none;
+}
+
+header .header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header_nav ul {
+  list-style: none;
+  display: flex !important;
+  justify-content: space-evenly;
+}
+
+header .header_nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  transition: all 0.3s;
+  /* esto es para que el cambio de color no sea tan tosco */
+}
+
+header .header_nav ul li a:hover {
+  color: gray;
+}
+
+@media (max-width: 950px) {
+  .nosotros {
+    padding: 0 !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 20px !important;
+    overflow: hidden !important;
+  }
+  .servicio {
+    padding: 0 !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 20px !important;
+    overflow: hidden !important;
+  }
+  .servicio .h1-titulo {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 790px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
+  header .header_nav {
+    display: none;
+  }
+  header .logo_tama {
+    margin: 0;
+  }
+  header #barra {
+    display: inline;
+  }
+  header .header_logo .lion {
+    display: inline-block;
+  }
+  #main-index {
+    flex-direction: column !important;
+  }
+  #main-index .hero-img {
+    width: 100% !important;
+  }
+  #main-index .hero {
+    width: 100% !important;
+  }
+}
+
+.nosotros_texto {
+  overflow: hidden;
+}
+
+.main-cursos {
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+@media (max-width: 860px) {
+  .header_logo .lion {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nosotros .nosotros_titulo {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .nosotros .nosotros_texto {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 10px;
+    overflow: hidden;
+  }
+  .main-cursos {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  main #main-index {
+    flex-direction: column;
+    width: 100%;
+  }
+  main .hero-img {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  main .hero {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    flex-direction: column;
+  }
+  footer p {
+    margin-bottom: 15px;
+  }
+}
+
+footer {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 10px 10px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+footer .texto_footer {
+  margin: auto 0;
+  padding: 0 10px;
+}
+
+footer .texto_footer p {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer .redes .redsocial {
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+footer .redes .redsocial i {
+  color: whitesmoke;
+  padding: 5px;
+}
+
+footer .redes .redsocial .redsocial:hover {
+  color: grey;
+}
+
+#main-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+#main-index .hero-img {
+  width: 50%;
+}
+
+#main-index .hero-img img {
+  min-width: 320px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#main-index .hero {
+  width: 50%;
+  padding: 35px;
+}
+
+#main-index .hero strong {
+  display: block;
+  color: white;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+#main-index .hero .hero_texto {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.048);
+  color: white;
+  border-radius: 30px;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+  padding-top: 20px;
+  height: 500px;
+  width: 100%;
+  background-image: url(../asset/images/guardaespalda3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: end;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.nosotros .nosotros_titulo {
+  color: black;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 20px;
+  width: 60%;
+}
+
+.nosotros .nosotros_texto {
+  width: 100%;
+}
+
+.nosotros .nosotros_texto p {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+.servicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 500px; */
+  padding: 0px;
+  margin: 0 auto;
+  background-image: url(../asset/images/guardaespalda2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: opacity 0.1;
+}
+
+.servicio .h1-titulo {
+  margin-bottom: 50px;
+  color: #131212;
+}
+
+.servicio ul li {
+  padding: 10px;
+  background-color: rgba(233, 227, 227, 0.062);
+  list-style: none;
+  color: black;
+}
+
+.main-cursos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*  @extend %flexx; */
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  background-image: url(../asset/images/foto3.jpeg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-cursos img {
+  height: 150px;
+}
+
+.contacto {
+  background-image: url(../asset/images/camuflaje-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacto h1,
+.contacto h2 {
+  color: whitesmoke;
+}
+
+.contacto label {
+  color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

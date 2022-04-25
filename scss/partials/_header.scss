@@ -1,55 +1,53 @@
 header {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 0 10px 0 white;
+  background-color: #0b151d;
+  height: 120px;
+  .header_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .logo_tama {
+      height: 75px !important;
+      justify-content: center;
+      margin: 10px;
+    }
+    .lion {
+      color: whitesmoke;
+      font-size: 20px;
+      padding: 0;
+      letter-spacing: 1px;
+    }
+  }
+  #barra {
+    stroke: white;
+    display: none;
+  }
+  .header_nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    box-shadow: 0 0 10px 0 white;
-    .header_logo {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        .logo_tama {
-            width: 75px !important;
-            height: 75px !important;
-            justify-content: center;
-            padding: 10px;
-            margin: 10px;
+    ul {
+      list-style: none;
+      display: flex !important;
+      justify-content: space-evenly;
+      li {
+        a {
+          text-decoration: none;
+          color: whitesmoke;
+          padding: 10px;
+          transition: all 0.3s; /* esto es para que el cambio de color no sea tan tosco */
+          &:hover {
+            color: gray;
+          }
         }
-        .lion {
-            color: white;
-            font-size: 20px;
-            padding: 0;
-            letter-spacing: 1px;
-        }
-    }    
-    #barra {
-        stroke: white;
-        display: none;
+      }
     }
-    .header_nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-evenly;
-            li{    
-                a {
-                    text-decoration: none;
-                    color: whitesmoke;
-                    padding: 10px;
-                    transition: all 0.3s; /* esto es para que el cambio de color no sea tan tosco */
-                    &:hover {
-                        color: gray;
-                    }
-                }
-            }
-        }
-    }
-}  
-  
-  
+  }
+}

@@ -1,3 +1,22 @@
+@media (max-width: 950px) {
+  .nosotros {
+    padding: 0 !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 20px !important;
+    overflow: hidden !important;
+  }
+  .servicio {
+    padding: 0 !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 20px !important;
+    overflow: hidden !important;
+    .h1-titulo {
+      justify-content: center !important;
+    }
+  }
+}
 @media (max-width: 790px) {
   header {
     display: flex;
@@ -14,6 +33,20 @@
     #barra {
       display: inline;
     }
+    .header_logo {
+      .lion {
+        display: inline-block;
+      }
+    }
+  }
+  #main-index {
+    flex-direction: column !important;
+    .hero-img {
+      width: 100% !important;
+    }
+    .hero {
+      width: 100% !important;
+    }
   }
 }
 
@@ -24,7 +57,13 @@
   flex-wrap: wrap;
   overflow: hidden;
 }
-
+@media (max-width: 860px) {
+  .header_logo {
+    .lion {
+      display: none;
+    }
+  }
+}
 @media (max-width: 650px) {
   .nosotros {
     display: flex;

@@ -15,11 +15,21 @@ footer {
       font-size: 16px;
     }
   }
-  .redsocial {
-    font-size: 25px;
-    transition: all 0.3s;
-    .redsocial:hover {
-      color: grey;
+  .redes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    .redsocial {
+      font-size: 25px;
+      transition: all 0.3s;
+      i {
+        color: whitesmoke;
+        padding: 5px;
+      }
+      .redsocial:hover {
+        color: grey;
+      }
     }
   }
 }
