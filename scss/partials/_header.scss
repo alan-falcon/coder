@@ -7,6 +7,29 @@ header {
   box-shadow: 0 0 10px 0 white;
   background-color: #0b151d;
   height: 120px;
+
+  #lionn {
+    color: whitesmoke;
+    font-size: 20px;
+    padding-right: 80px;
+    letter-spacing: 1px;
+  }
+  #logotama {
+    height: 75px !important;
+    justify-content: center;
+    margin: 10px;
+  }
+  #nav-bar li a {
+    display: flex;
+    justify-content: flex-end !important;
+    color: whitesmoke;
+    padding: 10px;
+
+    transition: all 0.3s;
+    &:hover {
+      color: gray;
+    }
+  }
   .header_logo {
     display: flex;
     flex-direction: row;

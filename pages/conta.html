@@ -15,31 +15,61 @@
 </head>
 <body > 
   <header >
-    <div class="header_logo">
-      <img class="logo_tama"  src="../asset/images/escudo33.png" alt="logo" />
-      <h1 class="lion">LION Security &copy</h1>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" id="barra" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-    <line x1="4" y1="6" x2="20" y2="6" />
-    <line x1="4" y1="12" x2="20" y2="12" />
-    <line x1="4" y1="18" x2="20" y2="18" />
-    </svg>
-    <nav class="header_nav">
-      <ul class="header_lista">
-        <li><a href="../index.html"> Inicio </a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="servi.html">Servicios</a></li>
-        <li><a href="cursos.html">Cursos</a></li>
-        <li><a href="conta.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark"  id="nav-bar">
+      <div class="container-fluid" style="width: 100vw;">
+        <a class="navbar-brand" href="#">
+          <img
+            class="logo_tama" id="logotama"
+            src="../asset/images/escudo33.png"
+            alt="logo de escudo de seguridad"
+            
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1 class="lion" id="lionn">LION Security &copy</h1>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"  >
+           
+            <li class="nav-item">
+
+              <a class="nav-link " href="../index.html"> Inicio </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servi.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="conta.html">Contacto</a>
+            </li>
+            
+          </ul>
+         
+          
+        </div>
+      </div>
     </nav>
   </header >
    
     <main class="contacto">
         
-        <h1>Datos de interes</h1>
-        <h2>Completar</h2>
+        <h2>Datos de interes</h2>
+        <h3>Completar</h3>
         <form class="row g-3">
           <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Mail</label>
@@ -81,7 +111,7 @@
             </div>
           </div>
           <div class="col-12">
-            <button type="submit" class="btn btn-primary">Registrarse</button>
+            <button type="submit" class="btn btn-dark">Registrarse</button>
           </div>
         </form>
         <!-- <form action=""> 

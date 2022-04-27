@@ -19,6 +19,31 @@ header {
   height: 120px;
 }
 
+header #lionn {
+  color: whitesmoke;
+  font-size: 20px;
+  padding-right: 80px;
+  letter-spacing: 1px;
+}
+
+header #logotama {
+  height: 75px !important;
+  justify-content: center;
+  margin: 10px;
+}
+
+header #nav-bar li a {
+  display: flex;
+  justify-content: flex-end !important;
+  color: whitesmoke;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+header #nav-bar li a:hover {
+  color: gray;
+}
+
 header .header_logo {
   display: flex;
   flex-direction: row;
@@ -351,8 +376,8 @@ footer .redes .redsocial .redsocial:hover {
   background-position: center;
 }
 
-.contacto h1,
-.contacto h2 {
+.contacto h2,
+.contacto h3 {
   color: whitesmoke;
 }
 
